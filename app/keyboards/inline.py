@@ -19,6 +19,17 @@ menu = quick_markup({
     'ᴜᴛɪʟs🎲': {'callback_data': 'open_utils'} 
 },row_width=2)
 
+shop = quick_markup({
+    'Купить рекламу📢': {'callback_data': 'pay_advertising'},
+    'Заказать бота🤖': {'callback_data': 'pay_bot'}
+})
+
+
+my_projects = quick_markup({
+    'ᴄᴀʟɪғᴏʀɴɪᴀ | ʙᴏᴛ': {'url': 'https://github.com/califDEV/MyTelegramBot'}
+})
+
+
 utils = quick_markup({
     'ɢᴇɴᴇʀᴀᴛᴇ🔧': {'callback_data': 'generate_password'},
     'ᴍʏ ɪᴅ✨': {'callback_data': 'id_user'}
